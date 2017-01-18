@@ -94,7 +94,8 @@
     background-size: 100%;
 }
 .footer {
-color: black;
+    background-color: rgba(0, 0, 0, 0.88);
+color: white;
 text-align: center;
 
 display: block;
@@ -103,7 +104,7 @@ position: absolute;
 white-space: pre-line;
 }
 .footer p {
-    margin-bottom: 0;
+    margin-bottom: 1%;
 }
 #foot {
     text-align: center;
