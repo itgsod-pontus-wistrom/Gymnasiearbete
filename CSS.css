@@ -1,0 +1,20 @@
+#head{
+    text-align: center;
+}
+#nav{
+   text-align: center;
+    background-color: black;
+
+}
+#nav ul{
+    list-style-type: none;
+
+}
+
+#nav li{
+    display: inline;
+
+}
+a{
+    text-decoration: none;
+}
