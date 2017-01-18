@@ -25,6 +25,20 @@
     background-size: 100%;
 }
 
+#login{
+    position:absolute;
+    transition: .5s ease;
+    right: 2%;
+    top: 1%;
+}
+
+#signup{
+    position:absolute;
+    transition: .5s ease;
+    right: 6%;
+    top: 1%;
+}
+
 #nav {
     text-align: center;
     word-spacing: 50px;
