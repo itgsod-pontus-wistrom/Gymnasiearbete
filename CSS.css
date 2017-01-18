@@ -3,7 +3,7 @@
 }
 #nav{
    text-align: center;
-    background-color: black;
+
 
 }
 #nav ul{
@@ -15,6 +15,8 @@
     display: inline;
 
 }
-a{
+#nav a{
+    color: black;
+    border-bottom: none;
     text-decoration: none;
 }
