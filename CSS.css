@@ -1,3 +1,4 @@
+
 #head {
     text-align: center;
     font-family: Copperplate, "Copperplate Gothic Light", fantasy;
@@ -28,9 +29,12 @@
 }
 
 #content {
+    background-image: url("Pics/paper_background.jpeg");
     text-align: center;
     padding: 10px;
+    
 }
+
 
 #foot {
     text-align: center;
