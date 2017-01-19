@@ -1,4 +1,8 @@
-#head {
+body{
+    background-image: url("Pics/paper_background.jpeg");
+}
+
+.head {
     background-image: url("Pics/clouds.jpg");
     text-align: center;
     font-family: Copperplate, "Copperplate Gothic Light", fantasy;
@@ -23,14 +27,14 @@
     background-size: 100%;
 }
 
-#login{
+.login{
     position:absolute;
     transition: .5s ease;
     right: 2%;
     top: 1%;
 }
 
-#signup{
+.signup{
     position:absolute;
     transition: .5s ease;
     right: 6%;
@@ -39,7 +43,7 @@
 
 
 
-#nav {
+.nav {
     text-align: center;
     word-spacing: 50px;
     font-size: 20px;
@@ -58,17 +62,17 @@
 
 }
 
-#nav ul {
+.nav ul {
     list-style-type: none;
 
 }
 
-#nav li {
+.nav li {
     display: inline;
 
 }
 
-#nav a {
+.nav a {
     color: black;
     border-bottom: none;
     text-decoration: none;
@@ -76,7 +80,7 @@
     padding-left: 1%;
 }
 
-#nav a:hover {
+.nav a:hover {
     background: #cedce7;
     background: -moz-linear-gradient(top,  #cedce7 0%, #596a72 100%);
     background: -webkit-linear-gradient(top,  #cedce7 0%,#596a72 100%);
@@ -85,7 +89,7 @@
     color: white;
 }
 
-#nav a:active {
+.nav a:active {
     background: #7d7e7d;
     background: -moz-linear-gradient(top,  #7d7e7d 0%, #0e0e0e 100%);
     background: -webkit-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%);
@@ -94,41 +98,25 @@
 
 }
 
-#content {
-    background-image: url("Pics/paper_background.jpeg");
+.content {
     text-align: center;
-    /*height: 75%;*/
     width:100%;
-    position: absolute;
-    margin-top: -1%;
-    margin-bottom: -1%;
-    margin-left: -1%;
-    margin-right: -2%;
-    padding-right: 0.5%;
-    background-size: 100%;
+    position: relative;
 }
+
+
 .footer {
-    background-color: rgba(0, 0, 0, 0.88);
-color: white;
-text-align: center;
-
-display: block;
-width: 100%;
-position: absolute;
-white-space: pre-line;
-}
-.footer p {
-    margin-bottom: 1%;
-}
-#foot {
     text-align: center;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-
+    display: block;
+    background-color: rgba(0, 0, 0, 0.88);
+    color: white;
+    position: relative;
+    height: 1%;
+    margin-bottom: -3%;
+    margin-left: -1%;
+    margin-right: -1%;
 }
+
 label{
     display: inline-block;
     float: left;
@@ -147,16 +135,17 @@ input {
     margin-left: 0.5%;
 }
 
-#signupbutton{
+.signupbutton{
    width: 5%;
     margin-left: 44%;
 }
 
-#loginbutton{
+.loginbutton{
     width: 5%;
     margin-left: 44%;
 }
 
-#noaccount{
+.noaccount{
     margin-right: 8%;
 }
+
