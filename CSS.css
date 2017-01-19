@@ -129,3 +129,30 @@ white-space: pre-line;
     padding: 1rem;
 
 }
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: center;
+    move-to: left;
+    text-align-last: right;
+    margin-left: 20%;
+}
+
+input {
+    width: 15%;
+    display: inline-block;
+    float: left;
+    margin-left: 0.5%;
+}
+
+#signupbutton{
+   width: 5%;
+    margin-left: 44%;
+}
+
+#loginbutton{
+    width: 5%;
+    margin-left: 44%;
+}
